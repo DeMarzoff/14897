@@ -1,7 +1,7 @@
 /*@import url("https://ch3rn1k.me/archive/fonts/web/CeraPro/CeraPro.css");*/
 @font-face {
     font-family: 'CeraPro';
-    src: url('https://demarzoff.github.io/fonts/CeraPro-Regular.ttf');
+    src: url('https://demarzoff.github.io/14897/fonts/CeraPro-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -28,7 +28,7 @@ body {
 
 body::after {
 	/*background-color: #2a2929;*/
-	background-image: url('https://demarzoff.github.io/bg1.png');
+	background-image: url('https://demarzoff.github.io/14897/bg1.png');
 	background-attachment: fixed;
 	background-size: cover;
 	content: "";
@@ -1624,7 +1624,7 @@ h6 {
 	padding: 32px;
 	width: 400px;
 	color: #909090;
-	background: #e7e8ea url('https://demarzoff.github.io/bg1.png') repeat-y;
+	background: #e7e8ea url('https://demarzoff.github.io/14897/bg1.png') repeat-y;
 	background-size: 1920px 1080px;
 	background-repeat: repeat;
 }
@@ -2022,7 +2022,7 @@ table {
 .xbox_social .social_list .chat div {
   width: 100%;
   height: 100%;
-  background: url('https://demarzoff.github.io/vk.svg') no-repeat center center;
+  background: url('https://demarzoff.github.io/14897/vk.svg') no-repeat center center;
   background-size: 100% 100%;
 }
 
@@ -2033,7 +2033,7 @@ table {
 .xbox_social .social_list .vk div {
   width: 100%;
   height: 100%;
-	background: url('https://demarzoff.github.io/vk.svg') no-repeat center center;
+	background: url('https://demarzoff.github.io/14897/vk.svg') no-repeat center center;
   background-size: 100% 100%;
 }
 
@@ -2044,7 +2044,7 @@ table {
 .xbox_social .social_list .discord div {
   width: 100%;
   height: 100%;
-	background: url('https://demarzoff.github.io/discord.svg') no-repeat center center;
+	background: url('https://demarzoff.github.io/14897/discord.svg') no-repeat center center;
   background-size: 100% 100%;
 }
 
@@ -2118,7 +2118,7 @@ table {
   height: 50px;
   top: 0;
   left: 0;
-  background: url(https://demarzoff.github.io/scratch-bg.png) no-repeat center center;
+  background: url(https://demarzoff.github.io/14897/scratch-bg.png) no-repeat center center;
   transform: rotate(45deg);
 }
 
