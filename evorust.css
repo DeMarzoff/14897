@@ -84,7 +84,7 @@ body::after {
 }
 
 .xbox_store {
-	background: rgba(59, 59, 59, 0.8);
+	background: rgba(59, 59, 59, 0.9);
   /*box-shadow: #3b3b3b 0px 0px 30px 0px;*/
   border-radius: 5px;
 }
@@ -181,7 +181,7 @@ body::after {
 .navbar {
 	font-size: 20px;
 	text-transform: unset;
-	background: rgba(59, 59, 59, 0.8);
+	background: rgba(59, 59, 59, 0.9);
   /*box-shadow: #3b3b3b 0px 0px 30px 0px;*/
   border-radius: 5px;
   padding: 10px 20px;
@@ -232,7 +232,7 @@ a:hover {
 .xbox.xbox_widget_stats .xbox__footer,
 .xbox.xbox_widget_stats .xbox__header,
 .xbox.xbox_widget_stats .xbox__body {
-	background: rgba(59, 59, 59, 0.8) !important;
+	background: rgba(59, 59, 59, 0.9) !important;
 }
 
 .xbox__footer {
@@ -247,7 +247,7 @@ a:hover {
 }
 
 .xbox_server, .xbox_player {
-	background: rgba(59, 59, 59, 0.8);
+	background: rgba(59, 59, 59, 0.9);
 }
 
 .xbox_server .server-navigation a {
@@ -503,7 +503,7 @@ a:hover {
 }
 
 .table-body {
-	/*background: rgba(59, 59, 59, 0.8);*/
+	/*background: rgba(59, 59, 59, 0.9);*/
 }
 
 .xbox__body a div {
@@ -511,7 +511,7 @@ a:hover {
 }
 
 .xbox_rules .xbox__body {
-  background: rgba(59, 59, 59, 0.8);
+  background: rgba(59, 59, 59, 0.9);
 }
 
 .xbox_menu .xbox__body div {
@@ -1398,7 +1398,7 @@ h6 {
 	border-right: 3px solid #3b3b3b;
 	margin-bottom: 10px;
 	padding: 2px;
-	background: rgba(59, 59, 59, 0.8);
+	background: rgba(59, 59, 59, 0.9);
 	border-radius: 10px;
 	transition: all 220ms;
 	height: auto;
@@ -1918,7 +1918,7 @@ textarea {
 }
 
 .table-striped>tbody>tr:nth-of-type(odd) {
-	background-color: rgba(59, 59, 59, 0.8) !important;
+	background-color: rgba(59, 59, 59, 0.9) !important;
 }
 
 table {
@@ -1926,7 +1926,7 @@ table {
 }
 
 .xbox_bonus_info {
-	background: rgba(59, 59, 59, 0.8);
+	background: rgba(59, 59, 59, 0.9);
   /*box-shadow: #3b3b3b 0px 0px 30px 0px;*/
   border-radius: 5px;
   margin: 50px 0px;
@@ -1987,7 +1987,7 @@ table {
   width: calc(90% / 3);
   height: 50px;
   display: block;
-  background: rgba(59, 59, 59, 0.8);
+  background: rgba(59, 59, 59, 0.9);
   /*box-shadow: #3b3b3b 0px 0px 30px 0px;*/
   border-radius: 5px;
   padding: 5px;
@@ -2050,7 +2050,7 @@ table {
 
 /* promo */
 .xbox_promo {
-	background: rgba(59, 59, 59, 0.8);
+	background: rgba(59, 59, 59, 0.9);
   /*box-shadow: #3b3b3b 0px 0px 30px 0px;*/
   border-radius: 5px;
   margin: 20px 0px;
