@@ -1956,7 +1956,7 @@ table {
 
 .xbox_bonus_info .bonus_list > li > .bonus {
 	display: inline-block;
-  background: rgba(188, 131, 201, 0.8);
+  background: rgba(188, 131, 201, 0.5);
   width: 60px;
   height: 25px;
   line-height: 25px;
