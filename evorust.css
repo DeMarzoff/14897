@@ -373,7 +373,7 @@ a:hover {
 .btn-secondary:active,
 .show>.btn-secondary.dropdown-toggle {
 	color: #fff;
-	background: #3b3b3b;
+	background: #fee401 !important;
 	border-color: #0a0a0a 0;
 	-webkit-box-shadow: none;
 	transform: scale(1.15)
@@ -459,7 +459,7 @@ a:hover {
 
 .xserver .xserver__links .ml-auto a:hover,
 .xserver .xserver__title a:hover {
-	color: #3b3b3b
+	color: #fee401
 }
 
 .xserver .xserver__status .progress {
@@ -469,10 +469,6 @@ a:hover {
 
 .xserver .xserver__status .progress .progress-bar-animated {
 	animation: unset
-}
-
-.xserver .xserver__status .progress .bg-success {
-	background: linear-gradient(to right, #3b3b3b 0%, #bf9dd1 100%)
 }
 
 .xbox_menu .menu {
@@ -990,13 +986,13 @@ h6 {
 
 .block_category_1:before {
 	border-radius: 20px 0px 0px 20px;
-	background: #9f71ab;
+	background: #fee401;
 	content: "1 час";
 	font-size: 22px;
 }
 
 .block-lvl-1 {
-	background: #9f71ab
+	background: #fee401
 }
 
 .block_category_2 {
@@ -1004,13 +1000,13 @@ h6 {
 }
 
 .block_category_2:before {
-	background: #9f71ab;
+	background: #fee401;
 	content: "2 часа";
 	font-size: 22px;
 }
 
 .block-lvl-2 {
-	background: #9f71ab
+	background: #fee401
 }
 
 .block_category_3 {
@@ -1018,13 +1014,13 @@ h6 {
 }
 
 .block_category_3:before {
-	background: #9f71ab;
+	background: #fee401;
 	content: "4 часа";
 	font-size: 22px;
 }
 
 .block-lvl-3 {
-	background: #9f71ab
+	background: #fee401
 }
 
 .block_category_4 {
@@ -1032,13 +1028,13 @@ h6 {
 }
 
 .block_category_4:before {
-	background: #9f71ab;
+	background: #fee401;
 	content: "8 часов";
 	font-size: 22px;
 }
 
 .block-lvl-4 {
-	background: #9f71ab
+	background: #fee401
 }
 
 .block_category_5 {
@@ -1046,13 +1042,13 @@ h6 {
 }
 
 .block_category_5:before {
-	background: #9f71ab;
+	background: #fee401;
 	content: "12 часов";
 	font-size: 22px;
 }
 
 .block-lvl-5 {
-	background: #9f71ab
+	background: #fee401
 }
 
 .block_category_6 {
@@ -1060,13 +1056,13 @@ h6 {
 }
 
 .block_category_6:before {
-	background: #9f71ab;
+	background: #fee401;
 	content: "24 часа";
 	font-size: 22px;
 }
 
 .block-lvl-6 {
-	background: #9f71ab
+	background: #fee401
 }
 
 .block_category_7 {
@@ -1074,13 +1070,13 @@ h6 {
 }
 
 .block_category_7:before {
-	background: #9f71ab;
+	background: #fee401;
 	content: "36 часов";
 	font-size: 22px;
 }
 
 .block-lvl-7 {
-	background: #9f71ab
+	background: #fee401
 }
 
 .block_category_8 {
@@ -1088,13 +1084,13 @@ h6 {
 }
 
 .block_category_8:before {
-	background: #9f71ab;
+	background: #fee401;
 	content: "48 часов";
 	font-size: 22px;
 }
 
 .block-lvl-8 {
-	background: #9f71ab
+	background: #fee401
 }
 
 /*.block_category_9 {
@@ -1104,13 +1100,13 @@ h6 {
 
 .block_category_9:before {
 	border-radius: 0px 20px 20px 0px;
-	background: #9f71ab;
+	background: #fee401;
 	content: "48 часов";
 	font-size: 22px;
 }
 
 .block-lvl-9 {
-	background: #9f71ab
+	background: #fee401
 }*/
 
 /*.block_by_category:nth-child(5) .kit-items__item,
@@ -1143,39 +1139,39 @@ h6 {
 }
 
 .block_category_1 .kit-item {
-	background: #9f71ab !important;
+	background: #fee401 !important;
 }
 
 .block_category_2 .kit-item {
-	background: #9f71ab !important;
+	background: #fee401 !important;
 }
 
 .block_category_3 .kit-item {
-	background: #9f71ab !important;
+	background: #fee401 !important;
 }
 
 .block_category_4 .kit-item {
-	background: #9f71ab !important;
+	background: #fee401 !important;
 }
 
 .block_category_5 .kit-item {
-	background: #9f71ab !important;
+	background: #fee401 !important;
 }
 
 .block_category_6 .kit-item {
-	background: #9f71ab !important;
+	background: #fee401 !important;
 }
 
 .block_category_7 .kit-item {
-	background: #9f71ab !important;
+	background: #fee401 !important;
 }
 
 .block_category_8 .kit-item {
-	background: #9f71ab !important
+	background: #fee401 !important
 }
 
 .block_category_9 .kit-item {
-	background: #9f71ab !important
+	background: #fee401 !important
 }
 
 .block_by_category .kit-item {
@@ -1389,7 +1385,7 @@ h6 {
 }
 
 .xserver .xserver__status .progress .bg-success {
-	background: #3b3b3b !important;
+	background: #fee401 !important;
 	animation: load 2s normal forwards;
 }
 
@@ -1409,7 +1405,7 @@ h6 {
 }
 
 .xserver .fa-play:hover {
-	color: #3b3b3b;
+	color: #fee401;
 }
 
 .product__servers {
