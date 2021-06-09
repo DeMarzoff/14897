@@ -85,7 +85,7 @@ body::after {
 
 .xbox_store {
 	background: rgba(59, 59, 59, 0.8);
-  box-shadow: #eda838 0px 0px 30px 0px;
+  /*box-shadow: #3b3b3b 0px 0px 30px 0px;*/
   border-radius: 5px;
 }
 
@@ -182,7 +182,7 @@ body::after {
 	font-size: 20px;
 	text-transform: unset;
 	background: rgba(59, 59, 59, 0.8);
-  box-shadow: #eda838 0px 0px 30px 0px;
+  /*box-shadow: #3b3b3b 0px 0px 30px 0px;*/
   border-radius: 5px;
   padding: 10px 20px;
   margin: 0 10px;
@@ -373,7 +373,7 @@ a:hover {
 .btn-secondary:active,
 .show>.btn-secondary.dropdown-toggle {
 	color: #fff;
-	background: #eda838 !important;
+	background: #3b3b3b;
 	border-color: #0a0a0a 0;
 	-webkit-box-shadow: none;
 	transform: scale(1.15)
@@ -459,7 +459,7 @@ a:hover {
 
 .xserver .xserver__links .ml-auto a:hover,
 .xserver .xserver__title a:hover {
-	color: #eda838
+	color: #3b3b3b
 }
 
 .xserver .xserver__status .progress {
@@ -469,6 +469,10 @@ a:hover {
 
 .xserver .xserver__status .progress .progress-bar-animated {
 	animation: unset
+}
+
+.xserver .xserver__status .progress .bg-success {
+	background: linear-gradient(to right, #3b3b3b 0%, #bf9dd1 100%)
 }
 
 .xbox_menu .menu {
@@ -691,7 +695,7 @@ a:hover {
 
 .modal .modal-content {
 	background: #171717;
-	box-shadow: 0 0 100px #eda838
+	box-shadow: 0 0 100px #3b3b3b
 }
 
 .modal .modal-footer {
@@ -986,13 +990,13 @@ h6 {
 
 .block_category_1:before {
 	border-radius: 20px 0px 0px 20px;
-	background: #eda838;
+	background: #9f71ab;
 	content: "1 час";
 	font-size: 22px;
 }
 
 .block-lvl-1 {
-	background: #eda838
+	background: #9f71ab
 }
 
 .block_category_2 {
@@ -1000,13 +1004,13 @@ h6 {
 }
 
 .block_category_2:before {
-	background: #eda838;
+	background: #9f71ab;
 	content: "2 часа";
 	font-size: 22px;
 }
 
 .block-lvl-2 {
-	background: #eda838
+	background: #9f71ab
 }
 
 .block_category_3 {
@@ -1014,13 +1018,13 @@ h6 {
 }
 
 .block_category_3:before {
-	background: #eda838;
+	background: #9f71ab;
 	content: "4 часа";
 	font-size: 22px;
 }
 
 .block-lvl-3 {
-	background: #eda838
+	background: #9f71ab
 }
 
 .block_category_4 {
@@ -1028,13 +1032,13 @@ h6 {
 }
 
 .block_category_4:before {
-	background: #eda838;
+	background: #9f71ab;
 	content: "8 часов";
 	font-size: 22px;
 }
 
 .block-lvl-4 {
-	background: #eda838
+	background: #9f71ab
 }
 
 .block_category_5 {
@@ -1042,13 +1046,13 @@ h6 {
 }
 
 .block_category_5:before {
-	background: #eda838;
+	background: #9f71ab;
 	content: "12 часов";
 	font-size: 22px;
 }
 
 .block-lvl-5 {
-	background: #eda838
+	background: #9f71ab
 }
 
 .block_category_6 {
@@ -1056,13 +1060,13 @@ h6 {
 }
 
 .block_category_6:before {
-	background: #eda838;
+	background: #9f71ab;
 	content: "24 часа";
 	font-size: 22px;
 }
 
 .block-lvl-6 {
-	background: #eda838
+	background: #9f71ab
 }
 
 .block_category_7 {
@@ -1070,13 +1074,13 @@ h6 {
 }
 
 .block_category_7:before {
-	background: #eda838;
+	background: #9f71ab;
 	content: "36 часов";
 	font-size: 22px;
 }
 
 .block-lvl-7 {
-	background: #eda838
+	background: #9f71ab
 }
 
 .block_category_8 {
@@ -1084,13 +1088,13 @@ h6 {
 }
 
 .block_category_8:before {
-	background: #eda838;
+	background: #9f71ab;
 	content: "48 часов";
 	font-size: 22px;
 }
 
 .block-lvl-8 {
-	background: #eda838
+	background: #9f71ab
 }
 
 /*.block_category_9 {
@@ -1100,13 +1104,13 @@ h6 {
 
 .block_category_9:before {
 	border-radius: 0px 20px 20px 0px;
-	background: #eda838;
+	background: #9f71ab;
 	content: "48 часов";
 	font-size: 22px;
 }
 
 .block-lvl-9 {
-	background: #eda838
+	background: #9f71ab
 }*/
 
 /*.block_by_category:nth-child(5) .kit-items__item,
@@ -1139,39 +1143,39 @@ h6 {
 }
 
 .block_category_1 .kit-item {
-	background: #eda838 !important;
+	background: #9f71ab !important;
 }
 
 .block_category_2 .kit-item {
-	background: #eda838 !important;
+	background: #9f71ab !important;
 }
 
 .block_category_3 .kit-item {
-	background: #eda838 !important;
+	background: #9f71ab !important;
 }
 
 .block_category_4 .kit-item {
-	background: #eda838 !important;
+	background: #9f71ab !important;
 }
 
 .block_category_5 .kit-item {
-	background: #eda838 !important;
+	background: #9f71ab !important;
 }
 
 .block_category_6 .kit-item {
-	background: #eda838 !important;
+	background: #9f71ab !important;
 }
 
 .block_category_7 .kit-item {
-	background: #eda838 !important;
+	background: #9f71ab !important;
 }
 
 .block_category_8 .kit-item {
-	background: #eda838 !important
+	background: #9f71ab !important
 }
 
 .block_category_9 .kit-item {
-	background: #eda838 !important
+	background: #9f71ab !important
 }
 
 .block_by_category .kit-item {
@@ -1199,7 +1203,7 @@ h6 {
 }
 
 .xbox_rules>.xbox__body {
-	box-shadow: #eda838 0px 0px 30px 0px;
+	/*box-shadow: #3b3b3b 0px 0px 30px 0px;*/
 	border-radius: 5px;
 }
 
@@ -1385,7 +1389,7 @@ h6 {
 }
 
 .xserver .xserver__status .progress .bg-success {
-	background: #eda838 !important;
+	background: #3b3b3b !important;
 	animation: load 2s normal forwards;
 }
 
@@ -1405,7 +1409,7 @@ h6 {
 }
 
 .xserver .fa-play:hover {
-	color: #eda838;
+	color: #3b3b3b;
 }
 
 .product__servers {
@@ -1923,7 +1927,7 @@ table {
 
 .xbox_bonus_info {
 	background: rgba(59, 59, 59, 0.8);
-  box-shadow: #eda838 0px 0px 30px 0px;
+  /*box-shadow: #3b3b3b 0px 0px 30px 0px;*/
   border-radius: 5px;
   margin: 50px 0px;
 }
@@ -1984,7 +1988,7 @@ table {
   height: 50px;
   display: block;
   background: rgba(59, 59, 59, 0.8);
-  box-shadow: #eda838 0px 0px 30px 0px;
+  /*box-shadow: #3b3b3b 0px 0px 30px 0px;*/
   border-radius: 5px;
   padding: 5px;
   color: white;
@@ -2047,7 +2051,7 @@ table {
 /* promo */
 .xbox_promo {
 	background: rgba(59, 59, 59, 0.8);
-  box-shadow: #eda838 0px 0px 30px 0px;
+  /*box-shadow: #3b3b3b 0px 0px 30px 0px;*/
   border-radius: 5px;
   margin: 20px 0px;
 }
