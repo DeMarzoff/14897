@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("load", function () {
   var buttons = document.getElementsByClassName('store-servers');
 
   if (buttons.length > 0) {
