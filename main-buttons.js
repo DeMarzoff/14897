@@ -1,6 +1,5 @@
-document.addEventListener("load", function () {
+window.onload = function () {
   var buttons = document.getElementsByClassName('store-servers');
-
   if (buttons.length > 0) {
     Object.keys(buttons[0].children[0].children).forEach((key) => {
       let button = buttons[0].children[0].children[key];
@@ -9,5 +8,4 @@ document.addEventListener("load", function () {
       }
     });
   }
-
-});
+};
