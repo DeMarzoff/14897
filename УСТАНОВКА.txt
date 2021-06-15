@@ -1,0 +1,12 @@
+1) В файле "main-buttons.css" вставляешь нужные картинки
+
+2) Загружаешь все файлы на гитхаб.
+
+3) Заходишь в редактор шаблона и прямо под строкой:
+	
+<link rel="stylesheet" href="https://demarzoff.github.io/ид магазина/evorust.css">
+
+вставляешь:
+
+<link rel="stylesheet" href="https://demarzoff.github.io/ид магазина/main-buttons.css">
+<script src="https://demarzoff.github.io/ид магазина/main-buttons.js"></script>

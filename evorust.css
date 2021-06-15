@@ -813,7 +813,7 @@ h6 {
 
 .store-servers {
 	margin-bottom: 20px;
-	display: none
+	/*display: none*/
 }
 
 .product__servers {
