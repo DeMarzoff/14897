@@ -1,8 +1,21 @@
-document.onclick = MBInit;
-document.addEventListener("DOMContentLoaded", MBInit);
-document.addEventListener("load", MBInit);
-function MBInit(event) {
-	if (event.toElement.tagName.toLowerCase() == 'a' && event.toElement?.parentElement?.parentElement?.className.toLowerCase() == 'store-servers') {
-		event.toElement.parentElement.parentElement.style.display = 'none';
+document.addEventListener("DOMContentLoaded", mbInit);
+document.addEventListener("load", mbInit);
+window.onload = mbInit;
+
+function mbInit() {
+	var STORE_SERVERS_DIV = document.getElementsByClassName('store-servers');
+
+	if (STORE_SERVERS_DIV.length > 0) {
+		STORE_SERVERS_DIV[0] = onmbClick;
+	} else {
+		location.href = location.href;
+	}
+}
+
+function onmbClick(event) {
+	if (event.target.tagName.toLowerCase() == 'a') {
+		event.target.parentElement.parentElement.style.display = 'none';
+	} else (event == 'test') {
+		return 1;
 	}
 }
