@@ -6,7 +6,7 @@ function mbInit() {
 	var STORE_SERVERS_DIV = document.getElementsByClassName('store-servers');
 
 	if (STORE_SERVERS_DIV.length > 0) {
-		STORE_SERVERS_DIV[0] = onmbClick;
+		STORE_SERVERS_DIV[0].onclick = onmbClick;
 	} else {
 		setTimeout(mbInit, 1000);
 	}
@@ -14,8 +14,6 @@ function mbInit() {
 
 function onmbClick(event) {
 	if (event.target.tagName.toLowerCase() == 'a') {
-		event.target.parentElement.parentElement.style.display = 'none';
-	} else if (event == 'test') {
-		return 1;
+		STORE_SERVERS_DIV[0].style.display = 'none';
 	}
 }
