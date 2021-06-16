@@ -15,7 +15,7 @@ function mbInit() {
 function onmbClick(event) {
 	if (event.target.tagName.toLowerCase() == 'a') {
 		event.target.parentElement.parentElement.style.display = 'none';
-	} else (event == 'test') {
+	} else if (event == 'test') {
 		return 1;
 	}
 }
