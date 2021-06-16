@@ -14,6 +14,6 @@ function mbInit() {
 
 function onmbClick(event) {
 	if (event.target.tagName.toLowerCase() == 'a') {
-		STORE_SERVERS_DIV[0].style.display = 'none';
+		event.toElement.parentElement.parentElement.style.display = 'none';
 	}
 }
