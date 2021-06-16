@@ -8,7 +8,7 @@ function mbInit() {
 	if (STORE_SERVERS_DIV.length > 0) {
 		STORE_SERVERS_DIV[0] = onmbClick;
 	} else {
-		location.href = location.href;
+		setTimeout(mbInit, 1000);
 	}
 }
 
