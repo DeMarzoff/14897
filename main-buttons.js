@@ -14,6 +14,6 @@ async function mbInit() {
 
 function onmbClick(event) {
 	if (event.target.tagName.toLowerCase() == 'a') {
-		event.toElement.parentElement.parentElement.style.display = 'none';
+		event.target.parentElement.parentElement.style.display = 'none';
 	}
 }
